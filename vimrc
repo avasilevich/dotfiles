@@ -1,13 +1,10 @@
-
-
-syntax enable " enable syntax processing
+syntax enable
 
 " tabs and spaces
 
 set tabstop=2      " number of visual spaces per TAB
 set softtabstop=2  " number of spaces in TAB
 set expandtab      " tabs are spaces
-
 
 " ui config commands
 
@@ -38,3 +35,5 @@ nnoremap <space> za
 
 set foldmethod=indent " fold based on indent level
 
+set laststatus=2
+set statusline=%<%F%h%m%r%h%w%y\ %{&ff}\ %{strftime(\"%c\",getftime(expand(\"%:p\")))}%=\ lin:%l\,%L\ col:%c%V\ pos:%o\ ascii:%b\ %P
