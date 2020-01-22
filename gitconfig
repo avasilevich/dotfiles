@@ -1,6 +1,8 @@
 [user]
   name = Artsiom Vasilevich
   email = joneshpx@gmail.com
+[core]
+  editor = 'vim'
 [merge]
   tool = meld
 [mergetool "meld"]
