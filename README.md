@@ -1,2 +1,2 @@
-# osConfigs
-Some Operating Systems configs
+# dotfiles
+Tools configuration files
